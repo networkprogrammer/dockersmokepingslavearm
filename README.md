@@ -7,4 +7,5 @@ docker run -itd --env-file=environment --name=smokepingslave --restart=always sm
 
 ## Cron
 m h  dom mon dow   command
+
 0 */2 * * * docker restart smokepingslave
